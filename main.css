@@ -1,0 +1,454 @@
+*{
+    padding:0;
+    margin: 0;
+}
+header{
+    padding-top:20px;
+    display:flex;
+    justify-content:row;
+    height:150px;
+    width:50%;
+    margin:0 auto;
+    flex-wrap:wrap;
+}
+
+
+#first{
+
+    margin-right:20px;
+    flex-grow:1;
+    background:url("images/town.jpg")no-repeat;
+    background-size:100% 100%!important;
+   
+}
+
+#second{
+    margin-right:30px;
+    flex-grow:2;
+    background-color:grey;
+
+}
+#third{
+
+    background-color:grey;
+    flex-grow:3;
+}
+.line{
+    border:1px solid black;
+    width:50%;
+    margin:20px auto;
+}
+#main{
+    width:50%;
+    margin:0 auto;
+    display:flex;
+    justify-content:row;
+}
+#main_left{
+    height:800px;
+    flex-grow:1;
+}
+#main_right{
+    height:800px;
+    flex-grow:3;
+}
+#main_left{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+#four{
+    background-color:grey;
+    height:44%; 
+    width:95%;
+}
+
+#seven{
+    background:url("images/Banana\ fish.jpg")no-repeat;
+    background-size:100% 100%!important;
+    background-color:grey;
+    width:95%;
+    height:17%;
+}
+#five{
+    width:100%;
+    height:30%;
+    background-color:#D3D3D3;
+}
+#six_wrapper{
+    margin-top:2%;
+    height:42%;
+    display:flex;
+    justify-content:row;
+    flex-wrap:wrap;
+}
+
+.six{
+    margin-bottom:10px;
+    margin-right:10px;
+    width:17%;  
+}
+.six:first-child{
+    background-size:100% 100%!important;
+    background:url("images/shaman_king_anime.jpg")no-repeat;
+}
+.six:nth-child(2){
+    background-size:100% 100%!important;
+    background:url("images/one_piece_anime.jpg")no-repeat;
+}
+.six:nth-child(3){
+    background-size:100% 100%!important;
+    background:url("images/bleach_anime.jpg")no-repeat;
+}
+.six:nth-child(4){
+    background-size:100% 100%!important;
+    background:url("images/cycade_anime.jpg")no-repeat;
+}
+.six:nth-child(5){
+    background-size:100% 100%!important;
+    background:url("images/gatts_anime.jpg")no-repeat;
+}
+.six:nth-child(6){
+    background-size:100% 100%!important;
+    background:url("images/god_tower.jpg")no-repeat;
+}
+.six:nth-child(7){
+    background-size:100% 100%!important;
+    background:url("images/akame_anime.jpg")no-repeat;
+}
+#bottom{
+    
+    height:26.18%;
+    display:flex;
+    justify-content:row;
+}
+
+#eight{
+    background-color:#D3D3D3;
+    flex-grow:8;
+}
+#nine{
+    margin-left:20px;
+    background-color:#D3D3D3;
+    flex-grow:7;
+}
+footer{
+    padding-bottom:25px;
+    height:170px;
+    width:50%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-around;
+}
+#ten{
+    margin-right:20px;
+    flex-grow:1;
+    background-color:grey;
+}
+#eleven{
+    margin-right:20px;
+    flex-grow:1;
+    background-color:grey;
+}
+#twelve_thirteen{
+    display:flex;
+    flex-direction:column;
+    flex-grow:1;
+}
+#twelve{
+   background-color:grey;
+    flex-grow:1;
+}
+#thirteen{
+    background:url("images/claymore.jpg")no-repeat;
+    background-size:100% 100%!important;
+    margin-top:10%;
+    background-color:grey;
+    flex-grow:1;
+}
+.modal{
+    display:none;
+    position:fixed;
+    z-index:1;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow:auto;
+    background-color:rgba(0,0,0,0.8);
+}
+.modal-content{
+    background-color:#fefefe;
+    margin:15% auto;
+    padding:20px;
+    border:1px solid #888;
+    width:500px;
+}
+.close{
+    color:#aaa;
+    float:right;
+    font-size:28px;
+    font-weight:bold;
+}
+@media screen and (max-width:1470px){
+    header{
+      
+    }
+    #bottom{
+        height:26.5%;
+    }
+    .six{
+        width:25%;
+    }
+    #first{
+        flex-grow:1.5;
+        margin-right:5px;
+       
+    }
+    #second{
+
+        flex-grow:2.5;
+        margin-right:10px;
+    }
+    #third{
+        flex-grow:3.5;
+    }
+}
+@media screen and (max-width:1366px){
+   #bottom{
+       margin-top:21.5px;
+       height:24%;
+   }
+   header{
+       height:140px;
+   }
+   footer{
+       height:140px;
+   }
+}
+@media screen and (max-width:1285px){
+    #bottom{
+        margin-top:11px;
+        height:20%;
+    }
+    #seven{
+        height:15%;
+    }
+    #five{
+        height:25%;
+        margin-bottom:25px;
+    }
+    #six_wrapper{
+        height:50%;
+      
+    }
+}
+@media screen and (max-width:1250px){
+    .six{
+        width:23%;
+    }
+    #five{
+        height:27%;
+    }
+    #seven{
+        height:14%;
+    }
+    #bottom{
+        margin-top:9px;
+        height:20%;
+    }
+    #six_wrapper{
+      
+        height:46.5%;
+    }
+    #main_left{
+        height:600px;
+    }
+    #main_right{
+      
+        height:600px;
+    }
+    header{
+        height:130px;
+    }
+    footer{
+        height:130px;
+    }
+}
+@media screen and (max-width:1162px){
+    header{
+        height:120px;
+    }
+    footer{
+        height:110px;
+    }
+    #bottom{
+        margin-top:8px;
+    }
+}
+@media screen and (max-width:1050px){
+    header{
+        height:110px;
+    }
+    footer{
+        height:100px;
+    }
+}
+@media screen and (max-width:972px){
+    #bottom{
+        margin-top:8px;
+    }
+    .six{
+        width:30%;
+        height:30%;
+    }
+}
+@media screen and (max-width:900px){
+    header{
+        height:100px;
+    }
+    footer{
+        height:90px;
+    }
+}
+@media screen and (max-width:820px){
+   #bottom{
+        margin-top:8px;
+    }
+}
+@media screen and (max-width:770px){
+    #main_left{
+        height: 500px;
+    }
+    #main_right{
+        height: 500px;
+    }
+    #five{
+        margin-bottom:10px;
+    }
+    .six{
+        width:28%;
+        height:30%;
+    }
+    #bottom{
+        margin-top:16px;
+    }
+}
+@media screen and (max-width:727px){
+    header{
+        height:85px;
+        
+    }
+    footer{
+        height:80px;
+    }
+    #bottom{
+        margin-top:16px;
+    }
+}
+@media screen and (max-width:606px){
+    header{
+        height:75px;
+    }
+    footer{
+        height:70px;    
+    }
+}
+@media screen and (max-width:531px){
+    #main_left{
+        height:400px;
+    }
+    #main_right{
+        height:400px;
+    }
+    header{
+        height:65px;
+    }
+    footer{
+        height:65px;
+    }
+    .line{
+        margin:15px auto;
+    }
+    #bottom{
+        margin-top:10px;
+    }
+}
+@media screen and (max-width:472px){
+    header{
+        height:55px;
+    }
+    footer{
+        height:45px;
+    }
+    #left_main{
+        height:350px;
+    }
+    #right_main{
+        height:350px;
+    }
+    .six{
+        margin-bottom:5px;
+        margin-right:5px;
+        width:30%;
+        height:30%;
+    }
+    #seven{
+        height:13%;
+    }
+}
+@media screen and (max-width:415px){
+    header{
+  
+        width:100%;
+    }
+    #main{
+        width:100%;
+    }
+    footer{
+        width:100%;
+    }
+    .line{
+        margin-top:10px;
+        margin-bottom:10px;
+        width:100%;
+    }
+}
+@media screen and (max-width:396px){
+   header{
+       margin: 0 auto;
+       width:98%;
+   }
+    
+    #main_left{
+      
+        height:350px;
+    }
+    #main_right{
+     
+        height:350px;
+    }
+    #eight{
+        margin-top:19px;
+        height:50px;
+    }
+    #nine{
+        margin-left:5px;
+        margin-top:19px;
+        height:50px;
+    }
+    .six{
+        width:27%;
+        height:28%;
+    }
+    .line{
+        margin:5px auto;
+    }
+    #ten{
+        margin-right:5px;
+    }
+    #eleven{    
+    margin-right:5px
+    }
+    
+}
