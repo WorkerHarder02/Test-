@@ -413,6 +413,9 @@ footer{
         margin-bottom:10px;
         width:100%;
     }
+     #bottom{
+        margin-top:16.5px;
+    }
 }
 @media screen and (max-width:396px){
    header{
@@ -449,6 +452,9 @@ footer{
     }
     #eleven{    
     margin-right:5px
+    }
+    #bottom{
+        margin-top:14px;
     }
     
 }
